@@ -27,7 +27,7 @@ namespace Lab9
             Einstein[2] = (double)numericUpDown3.Value;
             Einstein[3] = (double)numericUpDown4.Value;
             Einstein[4] = 1 - (Einstein[0] + Einstein[1] + Einstein[2] + Einstein[3]);
-            Console.WriteLine(Einstein[4]);
+            
             if (Einstein[4] <= 0 || Einstein[4] > 1)
             {
                 return;
